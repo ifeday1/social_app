@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    color: white;
+    padding-top: 100px;
+    background-color:rgba(1, 121, 196, 0.793);
+    position: sticky;
+    top: 0;
+}
+.icon{
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 5px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+   
+    
+}
+@media screen and (min-width: 1024px){
+    .container{
+        background-color: white;
+        color: #555;
+        border: 1px solid #ece7e7;
+    }
+    .icon{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 992px){
+    .text{
+        display: none;
+        cursor: pointer;
+    }
+}

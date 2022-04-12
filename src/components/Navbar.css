@@ -1,0 +1,22 @@
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 244, 240);
+    border-radius: 5px;
+    width: 50%;
+}
+.input{
+    color: white;
+    margin-left: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.badge{
+    margin-right: 10px;
+}

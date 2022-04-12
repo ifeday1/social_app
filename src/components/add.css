@@ -1,0 +1,30 @@
+.fab{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.contain{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.form{
+    padding: 10px;
+}
+.items{
+    padding: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .contain{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+}
